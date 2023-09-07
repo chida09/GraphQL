@@ -5,7 +5,13 @@
  * 3. consoleに表示されたurlにアクセス
  * 4. Apollo Studio Explorerが起動するので、Query your serverをクリック
  * 5. Operations を空にした状態から左側の Documentationの Query と Fields の下にある hello をクリック
- * 6. outputは以下になる
+ *
+ * operation:
+ * query Query {
+ *   hello
+ * }
+ *
+ * output:
  * {
  *   "data": {
  *     "hello": "Hello World"
